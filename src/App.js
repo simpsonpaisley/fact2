@@ -1,25 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="center">
+			<h1>
+				Many vole species are skilled swimmers. In fact, the European water vole
+				can swim up to 50 ft. underwater.
+			</h1>
+			<img src="https://group.rspb.org.uk/thanet/wp-content/uploads/sites/162/2022/05/982Z9668-1536x1024.jpg"></img>
+		</div>
+	);
 }
 
 export default App;
